@@ -1,0 +1,12 @@
+{
+  "devDependencies": {
+    "push-dir": "^0.4.1",
+    "vuepress": "^0.14.4"
+  },
+  "scripts": {
+    "dev": "vuepress dev",
+    "build": "vuepress build",
+    "eject": "vuepress eject",
+    "deploy": "push-dir --dir=./.vuepress/dist --branch=gh-pages"
+  }
+}
